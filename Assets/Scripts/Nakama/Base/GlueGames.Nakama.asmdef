@@ -1,0 +1,19 @@
+{
+    "name": "GlueGames.Nakama",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8c968476b72fbcc40ae9575dff5057d1",
+        "GUID:1c114fae679a7f141b6eb79b6b81e9ce",
+        "GUID:69810832b544b46da9804f1af9373521",
+        "GUID:2de2828e3416fb64f891b8d79b699890"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

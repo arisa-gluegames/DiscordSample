@@ -1,0 +1,16 @@
+{
+    "name": "GlueGames.Authentication",
+    "rootNamespace": "GlueGames.Authentication",
+    "references": [
+        "GUID:8c968476b72fbcc40ae9575dff5057d1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
