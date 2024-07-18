@@ -19,7 +19,7 @@ public class PlayerStatusUI : MonoBehaviour
     {
         UpdateUI();
     }
-    private void Update()
+    protected virtual void Update()
     {
         playerScore.text = ScoreManager.Instance.Score.ToString("0000");
     }

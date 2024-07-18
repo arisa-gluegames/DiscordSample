@@ -1,6 +1,3 @@
-using ExitGames.Client.Photon;
-using Photon.Pun;
-using Photon.Realtime;
 using UnityEngine;
 
 public class HealthManager : SingletonPun<HealthManager>
@@ -23,7 +20,7 @@ public class HealthManager : SingletonPun<HealthManager>
         }
     }
 
-    protected void Start()
+    protected virtual void Start()
     {
         Health = maxHealth;
     }

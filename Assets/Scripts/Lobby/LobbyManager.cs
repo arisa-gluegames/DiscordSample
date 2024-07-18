@@ -11,6 +11,8 @@ public class LobbyManager : SingletonPun<LobbyManager>
     private Text uiLogger;
     [SerializeField]
     private string gameVersion = "1";
+    [SerializeField]
+    private string sceneToLoad = "Game";
     public byte MaxPlayersPerRoom { get; private set; }
 
     [SerializeField]
@@ -63,7 +65,7 @@ public class LobbyManager : SingletonPun<LobbyManager>
     [PunRPC]
     private void RPCLoadLevel()
     {
-        PhotonNetwork.LoadLevel(1);
+        PhotonNetwork.LoadLevel(sceneToLoad);
     }
 
     public void Log(string message)

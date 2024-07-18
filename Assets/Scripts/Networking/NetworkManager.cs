@@ -9,7 +9,8 @@ public class NetworkManager : SingletonPun<NetworkManager>
 
     [SerializeField]
     private Sprite[] playerSprites;
-
+    [SerializeField]
+    private string sceneToLoad;
     private void Start()
     {
         if (!IsMultiplayer) return;
@@ -17,7 +18,7 @@ public class NetworkManager : SingletonPun<NetworkManager>
         if (!PhotonNetwork.IsConnected)
         {
             //Load the Title screen instead
-            UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(sceneToLoad);
             return;
         }
 

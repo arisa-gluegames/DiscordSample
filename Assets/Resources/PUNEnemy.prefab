@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3741712924446188890}
   - component: {fileID: 3986639398177402888}
   - component: {fileID: 2501699603910667324}
-  - component: {fileID: 4800976513049643347}
   - component: {fileID: -7978246775830618993}
+  - component: {fileID: 3888154978882114413}
   m_Layer: 0
   m_Name: PUNEnemy
   m_TagString: Untagged
@@ -189,23 +189,6 @@ PolygonCollider2D:
       - {x: 0.145, y: -0.39999998}
       - {x: 0.24499999, y: -0.42}
   m_UseDelaunayMesh: 0
---- !u!114 &4800976513049643347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1655670297867339050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14350b4a6c838944d9a74a6e49ca89b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  moveSpeed: 1
-  scorePoints: 100
-  damage: 100
-  healthbar: {fileID: 6431723782787313027}
 --- !u!114 &-7978246775830618993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,6 +211,23 @@ MonoBehaviour:
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &3888154978882114413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655670297867339050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805268f3e815c7245a66a83c82821cc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  moveSpeed: 2
+  scorePoints: 100
+  damage: 100
+  healthbar: {fileID: 6431723782787313027}
 --- !u!1 &2103219074574709840
 GameObject:
   m_ObjectHideFlags: 0

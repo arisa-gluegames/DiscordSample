@@ -6,6 +6,11 @@ public class PUNHealthManager : HealthManager
 {
     public static byte HealthEventCode = 1;
 
+    protected override void Start()
+    {
+        base.Start();
+    }
+
     public override float Health
     {
         get { return health; }
