@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.furnyr.dissonity": {
+      "version": "https://github.com/Furnyr/Dissonity.git?path=/unity",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5e4e0003b9757de2355b49fc0d3afea2ddbf4136"
+    },
     "com.unity.2d.animation": {
       "version": "9.1.0",
       "depth": 1,
